@@ -38,7 +38,7 @@ const Chatbot = () => {
         },
         {
           headers: {
-            Authorization: `Bearer API_KEY=${process.env.API_KEY}`,
+            Authorization: `Bearer REACT_APP_API_KEY=${process.env.REACT_APP_API_KEY}`,
             "Content-Type": "application/json",
           },
         }
